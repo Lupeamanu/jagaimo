@@ -4,7 +4,7 @@ Born out of my love for learning Japanese and my use of Discord, allowing me to 
 
 
 ## Input
-![input command](https://i.imgur.com/agMkvwn.png)
+![input command](https://i.imgur.com/nX0EorH.png)
 
 ## Output
 ![output](https://i.imgur.com/hFA3HXw.png)
