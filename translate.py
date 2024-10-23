@@ -1,6 +1,7 @@
 '''Contains objects necessary for translating and providing suggestions.'''
 
 import os
+import logging
 import requests
 
 import deepl
@@ -12,6 +13,8 @@ load_dotenv('c:\\Users\\lupea\\Documents\\Lupeamanu\\Env\\.env')
 DEEPL_KEY = os.getenv('DEEPL_API_KEY')
 OPENAI_KEY = os.getenv('OPENAI_KEY')
 
+
+logger = logging.getLogger(__name__)
 
 class OpenAIClient:
     """Client used to interface with OpenAI for suggestions.
@@ -63,7 +66,7 @@ class JagaimoClient(OpenAIClient):
         Returns:
             None
         """
-        
+        logger.info('Creating Jagaimo client...')
         self.translator = deepl.Translator(DEEPL_KEY)
         super().__init__()
 

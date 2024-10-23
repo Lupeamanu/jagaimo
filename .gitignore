@@ -2,6 +2,11 @@
 *.exe
 *.cfg
 Scripts/
+*.toml
+*.yml
+*.log
+Dockerfile
+.dockerignore
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
